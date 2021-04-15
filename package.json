@@ -1,0 +1,23 @@
+{
+  "name": "school-exit-room",
+  "version": "0.0.0",
+  "description": "school-exit-room is a software tool to create and run exitrooms in a educational context.",
+  "contributors": [
+    {
+      "name": "Marian Hahne",
+      "email": "marian@marianhahne.de"
+    }
+  ],
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "AGPL-3.0-or-later"
+}
