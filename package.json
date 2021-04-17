@@ -12,7 +12,8 @@
   "types": "build/src/index.d.ts",
   "dependencies": {
     "eslint": "7.24.0",
-    "eslint-config-es": "3.28.26"
+    "eslint-config-es": "3.28.26",
+    "roboter": "^11.6.38"
   },
   "devDependencies": {},
   "scripts": {
