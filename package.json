@@ -1,6 +1,6 @@
 {
   "name": "school-exit-room",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "school-exit-room is a software tool to create and run exitrooms in a educational context.",
   "contributors": [
     {
@@ -16,13 +16,16 @@
     "roboter": "^11.6.38",
     "semantic-release-configuration": "^2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "semantic-release": "^17.4.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/School-Exit-Room/server"
   },
   "license": "AGPL-3.0-only"
 }
