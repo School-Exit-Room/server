@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/School-Exit-Room/server"
+    "url": "https://github.com/School-Exit-Room/server.git"
   },
   "license": "AGPL-3.0-only"
 }
