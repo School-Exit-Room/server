@@ -10,8 +10,10 @@ const logger = flaschenpost.getLogger();
 // Add Express middleware
 app.use(getMiddleware({ logOn: 'request' }));
 
-app.get('/', (req, res) => res.send('Express + TypeScript Server'));
+app.get('/', (request, response): any => {
+  response.send('Express + TypeScript Server');
+});
 
-app.listen(port, () => {
+app.listen(port, (): void => {
   logger.info(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
